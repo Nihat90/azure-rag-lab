@@ -6,9 +6,9 @@ from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 # CONFIGURATION
 # --------------------------------------------------
 
-RESOURCE_NAME = "DEINE_RESOURCE"
+RESOURCE_NAME = "studentxnspl-5289-resource/studentxnspl-5289"
 
-DEPLOYMENT_NAME = "DEIN_DEPLOYMENT"
+DEPLOYMENT_NAME = "rag-chat
 
 
 # --------------------------------------------------
