@@ -6,7 +6,7 @@ from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 # CONFIGURATION
 # --------------------------------------------------
 
-RESOURCE_NAME = "studentxnspl-5289-resource/studentxnspl-5289"
+RESOURCE_NAME = "studentxnspl-5289-resource"
 
 DEPLOYMENT_NAME = "rag-chat
 
@@ -26,7 +26,7 @@ token_provider = get_bearer_token_provider(
 # --------------------------------------------------
 
 client = OpenAI(
-    base_url=f"https://{RESOURCE_NAME}.services.ai.azure.com/openai/v1/",
+    base_url=f"https://studentxnspl-5289-resource.services.ai.azure.com/openai/v1/",
     api_key=token_provider,
 )
 
