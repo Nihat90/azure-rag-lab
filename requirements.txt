@@ -1,0 +1,5 @@
+openai
+azure-identity
+python-dotenv
+pandas
+numpy
